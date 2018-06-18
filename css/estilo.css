@@ -1,0 +1,92 @@
+/* Meu primeiro Estilo */
+/* Versao : 1.0 */
+/* Por Joel Andrade */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    position: relative;
+    font-weight: 1.5em;
+}
+
+.container {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    height: 4em;
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 10px black;
+    position: fixed;
+    z-index: 1;
+}
+.inicial-name-logo {
+    color: orange;
+}
+.menu-logo {
+    padding: .8em;
+    color: white;
+}
+.menu-inicial {
+    margin: 1em;
+}
+.menu-inicial ul {
+    display: flex;
+    align-items: center;
+    width: 200%;
+    height: 2em;
+}
+.menu-inicial a {
+    padding: 1.5em;
+    color: white;
+    text-decoration: none;
+    transition: all .5s;
+}
+.menu-inicial a:hover {
+    background: #4682B4;
+}
+.menu-inicial li {
+    list-style: none;
+}
+
+.princial-titulo {
+    width: 100%;
+    background-image: url(../img/bg-3.jpg);
+    height: 500px;
+    position: fixed;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 5px black;
+    position: relative;
+}
+.princial-titulo h1 {
+    font-family: 'Shadows Into Light Two', cursive;
+    text-align: center;
+    padding: 3em;
+    font-size: 3em;
+    text-shadow: 4px 4px 5px black;
+    color: #4169E1;
+}
+.princial-titulo p {
+    font-family: 'Shadows Into Light Two', cursive;
+    text-align: center;
+    color: white;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+.princial-titulo a {
+    text-decoration: none;
+    border-radius: 5px;
+    padding: .8em 5em;
+    position: absolute;
+    left: 41%;
+    background: #4682B4;
+    color:white;
+    text-transform: uppercase;
+    transition: all .5s;
+    box-shadow: 0px 0px 10px black;
+}
+.princial-titulo a:hover {
+    background: rgba(70,130,180, 0.8);
+}
